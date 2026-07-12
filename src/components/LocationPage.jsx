@@ -7,7 +7,7 @@ export default function LocationPage() {
 
   const latestLocation = {
     date: "10/7/2026",
-    address: "ရွှေပြည်သာ ရပ်ကွက်၊ ရာဇာဓိရာဇ်လမ်း",
+    address: "ရွှေပြည်သာ ရပ်ကွက်၊ ရာဇာဓိရာဇ်လမ်း(တစ်ညလုံး)",
     description: "နောက်ဆုံးတည်နေရာ",
   };
 
