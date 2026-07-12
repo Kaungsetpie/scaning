@@ -1,5 +1,5 @@
 import React from "react";
-import './ProcessTimeLine.css'
+import './ProcessTimeline.css'
 
 export default function IncidentReport() {
   const incidentDetails = [
