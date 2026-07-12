@@ -1,4 +1,4 @@
-import "./ProcessTimeLine.css";
+import "./ProcessTimeline.css";
 
 import laptop from "../assets/Asus-VivoBook-15-X515EA-lid-1024x638.jpg";
 import mobile from "../assets/photo_2026-07-11_19-32-38.jpg";
