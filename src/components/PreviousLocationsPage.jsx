@@ -5,6 +5,7 @@ import mingalar from '../assets/mingalar.jpg';
 import tawin from '../assets/tawwin.jpg';
 import han from '../assets/han.jpg';
 import gan from '../assets/gan.jpg';
+import shwe from '../assets/shwe.jpg';
 
 export default function PreviousLocationsPage() {
   const [visiblePlacePics, setVisiblePlacePics] = useState({});
@@ -22,7 +23,8 @@ export default function PreviousLocationsPage() {
     "ကျိုက်ဝိုင်းဘုရားလမ်း": { img: kyaik, label: "ကျိုက်ဝိုင်းဘုရားလမ်း တည်နေရာပုံ" },
     "တော်ဝင်လမ်း": { img: tawin, label: "တော်ဝင်လမ်း တည်နေရာပုံ" },
     "ဂန္ဓမာလမ်း": { img: gan, label: "ဂန္ဓမာလမ်း တည်နေရာပုံ" },
-    "ဂန္ဒမာလမ်း": { img: gan, label: "ဂန္ဒမာလမ်း တည်နေရာပုံ" }
+    "ဂန္ဒမာလမ်း": { img: gan, label: "ဂန္ဒမာလမ်း တည်နေရာပုံ" },
+    "ရွှေပြည်သာ": { img: shwe, label: "ရွှေပြည်သာ တည်နေရာပုံ" }
   };
 
   const locations = [
@@ -44,7 +46,13 @@ export default function PreviousLocationsPage() {
       address: [
         "တောင်ဝင်လမ်း ၉မိုင်(ရွေ့လျား) - 2:36pm",
         "ခရေပင်လမ်းခွဲ(ရွေ့လျား) - 5:00pm",
-        "ရွှေပြည်သာ ရပ်ကွက်၊ ရာဇာဓိရာဇ်လမ်း - 9:49pm ၊ နောက်ဆုံးတည်နေရာ",
+        "ရွှေပြည်သာ ရပ်ကွက်၊ ရာဇာဓိရာဇ်လမ်း - 9:49pm",
+      ],
+    },
+    {
+      date: "10/7/2026",
+      address: [
+        "ရွှေပြည်သာ ရပ်ကွက်၊ ရာဇာဓိရာဇ်လမ်း(တစ်ညလုံး)",
       ],
     },
   ];
